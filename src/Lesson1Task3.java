@@ -1,6 +1,7 @@
 public class Lesson1Task3 {
     public static void main(String[] args) {
-
+        System.out.println(closestToZeroNegative(-5, -2, 0));
+        System.out.println(closestToZeroNegative(2, 3, 4));
     }
 
     // TODO: Luua funktsioon, mis tagastab vastava arvu alati negatiivsena
@@ -22,13 +23,33 @@ public class Lesson1Task3 {
     // (-5, -2, 0) -> -2
     // (2, 3, 4) -> 2
     public static int closestToZeroNegative(int a, int b, int c){
-        if(a < 0 || b < 0 || c < 0) {
-
+        if(a < 0 || b < 0 || c < 0){
+            return negMin(negMin(a, b), c);
         } else {
-
+            return min(min(a, b), c);
         }
-        // TODO
-        return 0;
+    }
+
+    private static int negMin(int a, int b) {
+        if(a < 0 && b < 0) {
+            if(a>b){
+                return a;
+            } else {
+                return b;
+            }
+        } else if(a < 0){
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    private static int min(int a, int b) {
+        if(a < b){
+            return a;
+        } else {
+            return b;
+        }
     }
 
 }

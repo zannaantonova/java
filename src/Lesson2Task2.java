@@ -9,11 +9,12 @@ public class Lesson2Task2 {
         calculateArray(x);
     }
 
-    // TODO prindi välja x paaris arvu
+    // TODO prindi välja x esimest paaris arvu
     // Näide:
     // Sisend 5
     // Väljund 2 4 6 8 10
     private static void calculateArray(int x) {
         System.out.println(x);
     }
+
 }
