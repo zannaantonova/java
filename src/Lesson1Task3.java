@@ -9,8 +9,11 @@ public class Lesson1Task3 {
     // neg(-1) = -1
     // neg(8) = -8
     public static int neg(int x){
-        // TODO
-        return 0;
+        if(x <= 0){
+            return x;
+        } else {
+            return -1 * x;
+        }
     }
 
     // TODO: Luua funktsioon mis leiab sisend muutujates negatiivse numbri mis on kõige lähemal 0-ile
