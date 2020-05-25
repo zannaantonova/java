@@ -22,4 +22,8 @@ public class Pair {
     public void setB(int b) {
         this.b = b;
     }
+
+    public int getlength() {
+        return Math.abs(a - b);
+    }
 }
