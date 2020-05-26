@@ -1,0 +1,30 @@
+[
+  {
+    "regNr": "123ABC",
+    "model": "Toyota",
+    "previousUser": [
+      {
+        "name": "Siim"
+      },
+      {
+        "name": "----"
+      }
+    ]
+  },
+  {
+    "regNr": "124ABC",
+    "model": "Toyota"
+  },
+  {
+    "regNr": "125ABC",
+    "model": "Toyota"
+  },
+  {
+    "regNr": "123ABC",
+    "model": "Toyota"
+  },
+  {
+    "regNr": "123ABC",
+    "model": "Toyota"
+  }
+]
