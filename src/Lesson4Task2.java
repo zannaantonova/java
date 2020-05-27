@@ -1,4 +1,4 @@
-public class Lesson3Task5 {
+public class Lesson4Task2 {
     public static void main(String[] args) {
         // TODO loo float muutuja ja väärtusta see 1.89
         // TODO korruta see läbi täisarvuga 11

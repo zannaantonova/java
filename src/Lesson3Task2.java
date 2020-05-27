@@ -1,4 +1,4 @@
-// Rekursiooni näide
+// TODO Rekursiooni näide
 public class Lesson3Task2 {
     public static void main(String[] args) {
         System.out.println(fibonacci1(5));

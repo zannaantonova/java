@@ -4,7 +4,7 @@
  * ruudu kontstruktor peab vastu võtma x ja y kordinaadi ning külje pikkuse.
  * objektil peab olema meetod pindala, mis tagastab ruudu pindala
  */
-public class Lesson3Task4 {
+public class Lesson4Task3 {
     public static void main(String[] args){
         Pair a = new Pair(1, 2);
         System.out.println(a.getA());

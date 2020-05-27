@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-// Prindi välja faili iga teine täht
+// TODO Prindi välja faili iga teine täht
 public class Lesson3Task3 {
     public static void main(String[] args) throws FileNotFoundException {
         File myObj = new File("filename.txt");
