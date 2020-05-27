@@ -1,4 +1,4 @@
-package ee.bcs.java.exercise;
+package ee.bcs.java.exercise.lesson4;
 
 public class Task3 {
     // TODO
