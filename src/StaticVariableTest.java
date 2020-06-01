@@ -1,6 +1,6 @@
 public class StaticVariableTest {
-    String a;
-    static String b;
+    public String a;
+    public static String b;
 
     public StaticVariableTest(String a1, String b1) {
         a = a1;

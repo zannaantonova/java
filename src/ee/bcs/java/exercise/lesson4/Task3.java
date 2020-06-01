@@ -18,6 +18,9 @@ public class Task3 {
     // b) kui i ei ole paaris arv return i*3+1;
     public static int sequence(int i){
         // WRITE CODE HERE
+        if(i % 2 == 0){
+            // on paaris arv
+        }
         return 0;
     }
 

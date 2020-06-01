@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 
 /* TODO all olev on näidis, loo uus klass selle ülesande jaoks
  * Loo uus klass ruut
@@ -10,5 +12,6 @@ public class Lesson4Task3 {
         System.out.println(a.getA());
         System.out.println(a.getB());
         System.out.println(a.getlength());
+
     }
 }

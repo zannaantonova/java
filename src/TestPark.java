@@ -1,17 +1,8 @@
 public class TestPark {
-    public void main(String[] args) {
-        Pair a = new Pair(1, 2);
-        System.out.println(a.getA());
-        System.out.println(a.getB());
-
-        Node node = new Node(this);
-    }
-
-    private static class Node {
-
-        private TestPark testPark;
-        public Node(TestPark testPark) {
-            this.testPark = testPark;
+    public static void main(String[] args) {
+        for(int i = 0; i <= 100; i++){
+            System.out.println(i+ " % 3 " + (i % 3) + " " + (i / 3));
         }
     }
+
 }
