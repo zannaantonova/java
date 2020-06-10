@@ -7,7 +7,7 @@ public class BankController {
 
     // TODO
     // kasuta staatilist muutujat andmete salvestamiseks
-    // defineeri rest enpoindid
+    // defineeri rest enpoindid:
     // createAccount(String accountNr) | loob uue konto etteantud konto numbriga
     // getAccount(String accountNr) | tagasta kui palju raha on vastaval kontol
     // depositMoney(String accountNr, amount) | kannab loodud kontole raha (suurendab kontoga seotud raha muutujat)
