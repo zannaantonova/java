@@ -9,6 +9,7 @@ Päev 6: https://drive.google.com/file/d/1OAT5Gkly22jFmbQQZ3gxOAF6uUuLfitB/view?
 Päev 7: https://drive.google.com/file/d/1W4CmqIdsQhpWBAavU_zVyLhfYjXXik5t/view?usp=sharing  
 Päev 8: https://drive.google.com/file/d/1njkK1lrUxn6vLxWX9hFW04wt3W0kq1gX/view?usp=sharing  
 Päev 9: https://drive.google.com/file/d/1z9APpgpXKu7HpC_ev8fG1rjfr12sqZH4/view?usp=sharing  
+Päev 10: https://drive.google.com/file/d/1NKju40GshhQp5K5zAbfwmYVuENxqlhnS/view?usp=sharing  
 
 ### Lisa ülesanded (rasked)
 https://www.codingame.com/training/easy/the-descent  
