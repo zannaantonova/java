@@ -12,8 +12,8 @@ Päev 9: https://drive.google.com/file/d/1z9APpgpXKu7HpC_ev8fG1rjfr12sqZH4/view?
 Päev 10: https://drive.google.com/file/d/1NKju40GshhQp5K5zAbfwmYVuENxqlhnS/view?usp=sharing  
 Päev 11: https://drive.google.com/file/d/1t79rp4R2aUq0zO6BGsh3bsaSjsbaumZM/view?usp=sharing  
 Päev 12: https://drive.google.com/file/d/10hU0rNYRsV-V1OMPfeXCPlcDN-jg2evj/view?usp=sharing  
-Päev 13: https://drive.google.com/file/d/1KFiccVdcVgoFch7oEOc7IDzHgT9VJdVM/view?usp=sharing  
-
+Päev 13-14: https://drive.google.com/file/d/1KFiccVdcVgoFch7oEOc7IDzHgT9VJdVM/view?usp=sharing  
+Päev 15: https://drive.google.com/file/d/175pN7LUWnfER0eqOc1HvwONCQ_4dZWq5/view?usp=sharing   
 ### Lisa ülesanded (rasked)
 https://www.codingame.com/training/easy/the-descent  
 https://www.codingame.com/training/medium/skynet-revolution-episode-1  
