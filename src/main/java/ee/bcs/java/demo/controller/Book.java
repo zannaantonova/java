@@ -1,19 +1,15 @@
 package ee.bcs.java.demo.controller;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 
 public class Book {
-    @Size(min = 1, max = 100)
     private String title;
     @Email
     private String authorEmail;
     @NotNull
     private String author;
     @Min(value = 1000)
-    @Min(value = 2100)
+    @Max(value = 2100, message = "test")
     private int year;
 
     public String getTitle() {
