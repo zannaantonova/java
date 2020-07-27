@@ -16,8 +16,8 @@ public class BookController {
 
 
     @GetMapping("book")
-    public String test(){
-        return "test";
+    public Book test(){
+        return new Book("Uus Raamat", "Autor");
     }
 
     @PostMapping("book")

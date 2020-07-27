@@ -12,6 +12,11 @@ public class Book {
     @Max(value = 2100, message = "test")
     private int year;
 
+    public Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
     public String getTitle() {
         return title;
     }

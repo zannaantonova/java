@@ -4,6 +4,7 @@ import ee.bcs.java.demo.controller.Book;
 import ee.bcs.java.demo.controller.BookValidator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @org.springframework.context.annotation.Configuration
 public class Configuration {

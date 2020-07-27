@@ -15,7 +15,9 @@ Päev 12: https://drive.google.com/file/d/10hU0rNYRsV-V1OMPfeXCPlcDN-jg2evj/view
 Päev 13-14: https://drive.google.com/file/d/1KFiccVdcVgoFch7oEOc7IDzHgT9VJdVM/view?usp=sharing  
 Päev 15: https://drive.google.com/file/d/175pN7LUWnfER0eqOc1HvwONCQ_4dZWq5/view?usp=sharing   
 Päev 16: https://drive.google.com/file/d/1sFOt1adu9jwOSs17y6FyDKF8gBG-_ivS/view?usp=sharing   
-Päev 17: https://drive.google.com/file/d/14n-QqLS5FUdxTdD7GtxOs6vsPKRfQYrN/view?usp=sharing
+Päev 17: https://drive.google.com/file/d/14n-QqLS5FUdxTdD7GtxOs6vsPKRfQYrN/view?usp=sharing  
+Päev 18: https://drive.google.com/file/d/1_RGTFEkJAnj2CwYOUn6vJb-GBv7bSa5r/view?usp=sharing  
+Päev 19: https://drive.google.com/file/d/1inUR47dNZuhpEiO5jbT41e1O0d2lBn49/view?usp=sharing  
 
 ### Lisa ülesanded (rasked)
 https://www.codingame.com/training/easy/the-descent  
