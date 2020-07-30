@@ -3,21 +3,29 @@ package ee.bcs.java.demo.controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.Errors;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.math.BigDecimal;
 
 @RestController()
 @Validated
 public class BookController {
 
+    @CrossOrigin(origins = "*")
+    @GetMapping("account/{accountNr}")
+    public Account getAccountBalance(@PathVariable("accountNr") String accountNr){
+        if(accountNr.equals("1")){
+            return new Account(new BigDecimal("25.5"));
+        } else {
+            return new Account(new BigDecimal("0"));
+        }
+    }
 
-    @GetMapping("book")
+    @CrossOrigin(origins = "*")
+    @GetMapping("test")
     public Book test(){
-        return new Book("Uus Raamat", "Autor");
+        return new Book("Uus Raamat", "ABCDEFG");
     }
 
     @PostMapping("book")
