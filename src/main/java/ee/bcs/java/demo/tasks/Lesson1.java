@@ -10,7 +10,7 @@ public class Lesson1 {
     // Näited:
     // min (3, 5) = 3
     // min (-3, 8) = -3
-    private static int min(int a, int b) {
+    public static int min(int a, int b) {
         return 0;
     }
 
@@ -18,7 +18,7 @@ public class Lesson1 {
     // Näited:
     // abs(3) = 3
     // abs(-5) = 5
-    private static int abs(int x) {
+    public static int abs(int x) {
         return 0;
     }
 
@@ -43,14 +43,14 @@ public class Lesson1 {
     // Näited
     // isNumberEven(4) = true
     // isNumberEven(1) = false
-    public boolean isNumberEven(int a){
+    public static boolean isNumberEven(int a){
         return true;
     }
 
     // TODO: Luua funktsioon, mis
     // Juhul kui a on paaris arv, siis jaga sisend 2
     // Juhul kui a on paaritu arv, siis korruta sisend 3 ja liida 1
-    public int seq3n(int a){
+    public static int seq3n(int a){
         return 0;
     }
 }
