@@ -1,10 +1,10 @@
 ## Slaidid
-Sissejuhatus: https://drive.google.com/file/d/1m-9FEeATpSgVPxtEVHtJsAuO96ZaUlDZ/view?usp=  
-Päev 3: https://drive.google.com/file/d/1Qh2-sEay_YV_22um3R-FgweYlK1kUFJU/view?usp=sharing  
+Sissejuhatus: https://drive.google.com/file/d/1jYrQEMxsZh-EWcdNvLS0ljfU2GUYKh5g/view?usp=sharing  
+Päev 1(Muutujad operatsioonid tingimuslaused): https://drive.google.com/file/d/1azA36wmjJlMZSksyxwJHFd7aKmHAL5NK/view?usp=sharing  
 
 ### Ülsandad
 Kõik ülesanded asuvad src/main/java/ee/bcs/java/demo/tasks/LessonX.java
-* Lesson1  (3 ülesannet)
+* Lesson1
 
 ### Lisa ülesanded (rasked)
 https://www.codingame.com/training/easy/the-descent  
