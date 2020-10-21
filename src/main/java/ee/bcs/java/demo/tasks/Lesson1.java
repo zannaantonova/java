@@ -11,7 +11,11 @@ public class Lesson1 {
     // min (3, 5) = 3
     // min (-3, 8) = -3
     public static int min(int a, int b) {
-        return 0;
+        if (a > b) {
+            return b;
+        } else {
+            return a;
+        }
     }
 
     // TODO: Leia arvu absoluutväärtus
