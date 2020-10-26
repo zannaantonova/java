@@ -6,13 +6,18 @@ import java.util.Scanner;
 // TODO anna konsoolilt sisseloetud number funktsioonile ette ja prindi välja väljund
 public class Lesson2 {
     public static void main(String[] args) {
-        int sisend = 0;
-        System.out.println(sisend);
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        System.out.println(abs(n));
     }
 
     // Leia arvu absoluutväärtus
-    private static int abs(int x) {
-        return 0;
+    public static int abs(int x) {
+        if (x >= 0) {
+            return x;
+        } else {
+            return -x;
+        }
     }
 
     // TODO prindi välja x esimest paaris arvu
@@ -36,6 +41,7 @@ public class Lesson2 {
     // 2 4 6
     // 3 6 9
     private static void multiplyingTable(int x, int y){
-
+        System.out.println("asd"); // paneb rea lõppu tühja rea
+        System.out.print("asd"); // ei pane tühja rida
     }
 }
