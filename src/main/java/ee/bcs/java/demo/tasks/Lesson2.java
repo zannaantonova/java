@@ -53,5 +53,10 @@ public class Lesson2 {
     private static void multiplyingTable(int x, int y){
         System.out.println("asd"); // paneb rea lõppu tühja rea
         System.out.print("asd"); // ei pane tühja rida
+
+        // TODO 1 Kirjuta kood mis trükib numbrid 1st x-ini
+        // TODO 2 Tee tsükkel nii, et kood trükiks välja eelmist rida y korda
+        // TODO 3 Vormista väljund tabeliks kasutades print ja println käeske
+        // TODO 4 Mõtle mida peaks tegema, et ülejäänud read ka õigeks muutuks
     }
 }
