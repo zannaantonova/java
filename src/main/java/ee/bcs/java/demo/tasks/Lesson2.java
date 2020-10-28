@@ -20,18 +20,28 @@ public class Lesson2 {
         }
     }
 
+    private static void sampleTest(){
+        for(int i = 0; i < 10; i = i + 1){
+            System.out.println(i);
+        }
+    }
+
     // TODO prindi välja x esimest paaris arvu
     // Näide:
-    // Sisend 5
+    // Sisend x = 5
     // Väljund 2 4 6 8 10
     private static void calculateArray(int x) {
 
     }
 
-    // TODO loe konsoolist sisse 10 täisarvu
+    // TODO loe konsoolist sisse 4 täisarvu
     // TODO trüki varem sisestatud arvud välja vastupidises järiekorras
     private static void reverseOrder(){
-
+        Scanner scanner = new Scanner(System.in);
+        // TODO 1 defineeri massiiv milles on 4 täisarvu
+        // TODO 2 loo for tsükkel, loe 4 täisarvu kasutades scanner.nextInt()
+        // TODO 3 loo for tsükkel, loe 4 täisarvu ja täida massiiv nendega
+        // TODO 4  prindi välja massiivist numbrid vastupidises järeikorras
     }
 
     // TODO trüki välja korrutustabel mis on x ühikut lai ja y ühikut kõrg
