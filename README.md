@@ -7,6 +7,7 @@ Stringid, Rekursioonid, Faili lugemine: https://drive.google.com/file/d/1EDBBSOk
 Kõik ülesanded asuvad src/main/java/ee/bcs/java/demo/tasks/LessonX.java
 * Lesson1
 * Lesson2
+* Lesson3
 
 ### Lisa ülesanded (rasked)
 https://www.codingame.com/training/easy/the-descent  
