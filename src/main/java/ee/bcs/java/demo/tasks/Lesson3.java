@@ -5,9 +5,17 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class Lesson3 {
     public static void main(String[] args) throws FileNotFoundException {
-        System.out.println(fibonacci1(5));
-        System.out.println(fibonacci2(5));
-        readFromFile();
+//        System.out.println(fibonacci1(5));
+//        System.out.println(fibonacci2(5));
+//        readFromFile();
+        String a = "tere";
+        String b = new String("tere");
+        if (a == b){
+            System.out.println(1);
+        }
+        if(a.equals(b)){
+            System.out.println(2);
+        }
     }
 
     // TODO

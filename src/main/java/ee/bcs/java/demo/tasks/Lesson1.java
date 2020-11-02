@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Lesson1 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+/*        Scanner in = new Scanner(System.in);
         System.out.println("Min funktsioon. Sisesta 2 väärtust");
         int a = in.nextInt();
         int b = in.nextInt();
@@ -29,7 +29,8 @@ public class Lesson1 {
         System.out.println("max funktsioon. Sisesta 2 väärtust");
         a = in.nextInt();
         b = in.nextInt();
-        System.out.println(max(a, b));
+        System.out.println(max(a, b));*/
+        System.out.println(closestTo(3, new int[] {2, -5, 2, 6, 8, 4}));
     }
 
     // leia 2 arvu miinimum väärtus
@@ -166,12 +167,17 @@ public class Lesson1 {
     // closestTo(4, test);
     // TODO tagasta listist arv mis on kõige lähem numbrile nr
     public static int closestTo(int nr, int[] numbers) {
-        for (int i = 0; i < numbers.length; i++) {
-
+        int minDistance = Math.abs(nr - numbers[0]);
+        int minIndex = 0;
+        for (int i = 1; i < numbers.length; i++) {
+            if(Math.abs(nr - numbers[i]) < minDistance){
+                minDistance = Math.abs(nr - numbers[i]);
+                minIndex = i;
+            }
         }
+        return numbers[minIndex];
         // TODO 1 | trükkige välja kõik numbers massivis olevad väärtused
         // TODO 2 | trükkge välja kõigi elementide kohta kui kaugel nad on nr
         // TODO 3 | salvestage miinimum number muutujasse
-        return 0;
     }
 }
