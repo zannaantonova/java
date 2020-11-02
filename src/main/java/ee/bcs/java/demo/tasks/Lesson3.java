@@ -3,7 +3,6 @@ package ee.bcs.java.demo.tasks;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
 public class Lesson3 {
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println(fibonacci1(5));
