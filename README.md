@@ -5,6 +5,7 @@ Alamfunktsioonid, massiivid, tsüklid: https://drive.google.com/file/d/18P9XPfdb
 Stringid, Rekursioonid, Faili lugemine: https://drive.google.com/file/d/1EDBBSOkrYIrtPz_EQ2MpwkTnJicZw0zm/view?usp=sharing  
 Paketid, klassid, objektid: https://drive.google.com/file/d/15x1inPR670zWw6YL-xvYIz2Wa7UE4ZPX/view?usp=sharing  
 Git: https://drive.google.com/file/d/1gSimuqaCNhnm_q9RHpHX8E-4vN1lxZBV/view?usp=sharing  
+Web, Json: https://drive.google.com/file/d/1LywJGQj9HDMjL_3UzDspOgfkxbvAeaa_/view?usp=sharing  
 ### Ülsanded
 Kõik ülesanded asuvad src/main/java/ee/bcs/java/demo/tasks/LessonX.java
 * Lesson1
