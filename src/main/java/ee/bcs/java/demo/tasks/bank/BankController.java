@@ -11,6 +11,12 @@ import java.util.List;
 public class BankController {
     private List<BankAccount> bankAccountList = new ArrayList<>();
 
+    // localhost:8080/bank/accounts
+    @GetMapping("bank/accounts")
+    public List<BankAccount> getBankAccounts(){
+        return bankAccountList;
+    }
+
     // localhost:8080/bank/createaccount?iban=EE123
     @GetMapping("bank/createaccount")
     public void createAccount(@RequestParam("iban") String iban){
