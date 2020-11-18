@@ -8,6 +8,7 @@ Git: https://drive.google.com/file/d/1gSimuqaCNhnm_q9RHpHX8E-4vN1lxZBV/view?usp=
 Web, Json: https://drive.google.com/file/d/1LywJGQj9HDMjL_3UzDspOgfkxbvAeaa_/view?usp=sharing  
 Web2: https://drive.google.com/file/d/12IP3-dNEseMd3XoTYXDlOqQuICNKEQyp/view?usp=sharing  
 SQL: https://drive.google.com/file/d/1rm9A5AQWyu2EuJq6Gt7HDvPZZ-nqLa4c/view?usp=sharing  
+SQL2: https://drive.google.com/file/d/1Q9efSvUcZWgQZQ306_kj0xU37dHnCK6e/view?usp=sharing  
 ### Ülsanded
 Kõik ülesanded asuvad src/main/java/ee/bcs/java/demo/tasks/LessonX.java
 * Lesson1
