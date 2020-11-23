@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class EmployeeController {
@@ -27,10 +28,24 @@ public class EmployeeController {
     //http://localhost:8080/employee/get?id=1
     @GetMapping("employee/get")
     public Employee getEmployee(@RequestParam("id") int id){
-        String sql = "SELECT name FROM employee WHERE id = 1";
+        String sql = "SELECT name FROM employee WHERE id = :sqliId";
         String result = jdbcTemplate.queryForObject(sql, new HashMap<>(), String.class);
         return employeeList.get(id);
     }
+
+    //http://localhost:8080/employee/get?id=1
+    @GetMapping("employee/getName")
+    public String getEmployeeName(@RequestParam("id") int idFromRequest){
+        String sql = "SELECT name FROM employee WHERE id = :idSql " +
+                "and id2 = :idSql2";
+        Map<String, Object> paramMap = new HashMap<>();
+        paramMap.put("idSql", idFromRequest);
+        paramMap.put("idSql2", idFromRequest);
+        String result = jdbcTemplate.queryForObject(sql, paramMap, String.class);
+        jdbcTemplate.update(sql, paramMap);
+        return result;
+    }
+
 
     // http://localhost:8080/employee/add?name=siim&age=34
     @GetMapping("employee/add")
