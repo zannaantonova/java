@@ -9,6 +9,9 @@ Web, Json: https://drive.google.com/file/d/1LywJGQj9HDMjL_3UzDspOgfkxbvAeaa_/vie
 Web2: https://drive.google.com/file/d/12IP3-dNEseMd3XoTYXDlOqQuICNKEQyp/view?usp=sharing  
 SQL: https://drive.google.com/file/d/1rm9A5AQWyu2EuJq6Gt7HDvPZZ-nqLa4c/view?usp=sharing  
 SQL2: https://drive.google.com/file/d/1Q9efSvUcZWgQZQ306_kj0xU37dHnCK6e/view?usp=sharing  
+Web3: https://drive.google.com/file/d/12ow9vIXaQPFxlstHJ_KNIASK7IQ61Hon/view?usp=sharing  
+Exceptions: https://drive.google.com/file/d/1LdBhz65SH5l75Yv9c8Qz_RPWjjacjeld/view?usp=sharing  
+Testing: https://drive.google.com/file/d/1Eo1Pwg9X0ix2Q7Q5OenfM6ef2hMvMePT/view?usp=sharing  
 ### Ülsanded
 Kõik ülesanded asuvad src/main/java/ee/bcs/java/demo/tasks/LessonX.java
 * Lesson1

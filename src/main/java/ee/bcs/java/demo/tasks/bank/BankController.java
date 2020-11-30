@@ -42,7 +42,7 @@ public class BankController {
         bankService.withdrawMoney(iban, amount);
     }
 
-    // http://localhost:8080/bank/transferMoney?from=EE123&to=EE124&amount=100
+    // http://localhost:8080/bank2/transferMoney?from=EE123&to=EE124&amount=100
     @GetMapping("transferMoney")
     public void transferMoney(@RequestParam("from") String from,
                               @RequestParam("to") String to,
