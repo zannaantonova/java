@@ -19,7 +19,8 @@ public class BankController {
     // http://localhost:8080/bank/createaccount?iban=EE124
     @GetMapping("createaccount")
     public void createAccount(@RequestParam("iban") String iban) {
-        bankService.createAccount(iban);
+        throw new NullPointerException();
+    //    bankService.createAccount(iban);
     }
 
     // http://localhost:8080/bank/getAccountBalance?iban=EE123

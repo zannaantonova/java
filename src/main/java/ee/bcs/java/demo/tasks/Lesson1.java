@@ -63,12 +63,12 @@ public class Lesson1 {
     // neg(-1) = -1
     // neg(8) = -8
     public static int neg(int x) {
-        return -abs(x);
-        /*if(x <= 0){
+        //return -abs(x);
+        if(x <= 0){
             return x;
         } else {
             return -x;
-        }*/
+        }
     }
 
     // TODO: Luua funktsioon mis leiab sisend muutujates numbri mis on kõige lähemal 0-ile

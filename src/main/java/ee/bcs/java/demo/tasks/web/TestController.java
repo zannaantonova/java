@@ -26,6 +26,11 @@ public class TestController {
         elements.set(0, new SampleResult()); // kirjuta üle element kohal 0
     }
 
+    @GetMapping("testing/min")
+    public int testing(@RequestParam("a") int a, @RequestParam("b") int b){
+        return Lesson1.min(a, b);
+    }
+
     @GetMapping("lesson2/add")
     public int lesson2add(@RequestParam("x") int x){
         savedValue = savedValue + x;
