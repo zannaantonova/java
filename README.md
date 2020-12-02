@@ -13,6 +13,7 @@ Web3: https://drive.google.com/file/d/12ow9vIXaQPFxlstHJ_KNIASK7IQ61Hon/view?usp
 Exceptions: https://drive.google.com/file/d/1LdBhz65SH5l75Yv9c8Qz_RPWjjacjeld/view?usp=sharing  
 Testing: https://drive.google.com/file/d/1Eo1Pwg9X0ix2Q7Q5OenfM6ef2hMvMePT/view?usp=sharing  
 HTML: https://drive.google.com/file/d/1GjbgcuBhtrsp3X-WJQfFAhAyljWLSF-Q/view?usp=sharing  
+HTML5 elements: https://drive.google.com/file/d/1BQsgqjpMdt3eN48NqVjdQ_2xlfPPsMzS/view?usp=sharing  
 ### Ülsanded
 Kõik ülesanded asuvad src/main/java/ee/bcs/java/demo/tasks/LessonX.java
 * Lesson1
