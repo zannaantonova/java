@@ -46,11 +46,6 @@ public class TestController {
         return a;
     }
 
-    @GetMapping("")
-    public String test(){
-        return "Hello World!";
-    }
-
     @GetMapping("employee/{id}")
     public String test2(@PathVariable("id") Integer employeeId){
         return "See on uus http meetod! " + employeeId;
