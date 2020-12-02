@@ -6,22 +6,30 @@
     <pre>
         <h1>Test test         test</h1>
     </pre>
-    <table border="1">
+    <table border="1" id="tabel">
         <tr>
-            <td><input></td>
-            <td><input type="password"></td>
-            <td>asd</td>
-        </tr>
-        <tr>
-            <td>asd</td>
-            <td>asd</td>
-            <td>asd</td>
-        </tr>
-        <tr>
-            <td>asd</td>
-            <td>asd</td>
+            <td><input id="sisestus" placeholder="sisesta midagi"></td>
+            <td></td>
             <td>asd</td>
         </tr>
     </table>
+    <button id="pressMe">Vajuta mind</button>
+    <script>
+        let uusRida = document.createElement("tr");
+        let uusTulp = document.createElement("td");
+        uusTulp.innerText = "uus rida";
+        uusRida.appendChild(uusTulp);
+        let tabel = document.getElementById("tabel");
+        tabel.appendChild(uusRida);
+
+
+
+
+        let button = document.getElementById("pressMe");
+        let input = document.getElementById("sisestus");
+        button.onclick = function() {
+            button.innerText = input.value;
+        }
+    </script>
     </body>
 </html>
