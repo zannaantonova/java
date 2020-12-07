@@ -12,6 +12,7 @@
     </tr>
 </table>
 <input id="sisestus" placeholder="sisesta midagi">
+<input id="sisestus2" placeholder="sisesta midagi">
 <button id="pressMe">Vajuta mind</button>
 <script>
     let tabel = document.getElementById("tabel");
@@ -28,13 +29,28 @@
 
     let button = document.getElementById("pressMe");
     let input = document.getElementById("sisestus");
+    let input2 = document.getElementById("sisestus2");
 
     button.onclick = function(){
         tabel.innerHTML = "" // tühjenda tabel
-        for (let i = 0; i < input.value; i++){ // tee nii mitu korda kui on sisestatud väärtus
-            lisaUusRida(i); // lisa uus rida tabelisse - vaata fun üleval
+        for (let i = 1; i <= input.value; i++){ // tee nii mitu korda kui on sisestatud väärtus
+            let uusRida = document.createElement("tr");
+            for(let j = 1; j <= input2.value; j++){
+                let uusTulp = document.createElement("td");
+                uusTulp.innerText = i*j;
+                uusRida.appendChild(uusTulp);
+            }
+            tabel.appendChild(uusRida);
         }
     }
+    /* Ülesanne 6
+    button.onclick = function(){
+            tabel.innerHTML = "" // tühjenda tabel
+            for (let i = 0; i < input.value; i++){ // tee nii mitu korda kui on sisestatud väärtus
+                lisaUusRida(i); // lisa uus rida tabelisse - vaata fun üleval
+            }
+        }
+    */
 /* ülesanne 4
     button.onclick = function () {
         for (let i = 0; i < 10; i++) {
