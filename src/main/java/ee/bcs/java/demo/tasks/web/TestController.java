@@ -1,11 +1,13 @@
 package ee.bcs.java.demo.tasks.web;
 
 import ee.bcs.java.demo.tasks.Lesson1;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.sql.DataSource;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,7 +18,6 @@ public class TestController {
     // siis savedValue5 += 5 ja trüki x välja
     // lesson2/multiply?x=4
     // lesson2/subtract/4
-
 
     List elements = new ArrayList();
     public void testList(){
