@@ -5,6 +5,12 @@ import java.util.*;
 public class Lesson3b {
 
     public static void main(String[] args) {
+        System.out.println(factorial(0));
+        System.out.println(factorial(1));
+        System.out.println(factorial(2));
+        System.out.println(factorial(3));
+        System.out.println(factorial(4));
+        System.out.println(factorial(5));
     }
 
     private static void test(Map<String, String> testMap) {
@@ -27,11 +33,10 @@ public class Lesson3b {
     }
 
     public static int factorial(int x) {
-        // TODO tagasta x faktoriaal.
-        // Näiteks
-        // x = 5
-        // return 4*3*2*1 = 24
-        return 0;
+        if(x <= 1){
+            return 1;
+        }
+        return x * factorial(x - 1);
     }
 
     public static int[] sort(int[] a) {

@@ -5,17 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class Lesson3 {
     public static void main(String[] args) throws FileNotFoundException {
-//        System.out.println(fibonacci1(5));
-//        System.out.println(fibonacci2(5));
-//        readFromFile();
-        String a = "tere";
-        String b = new String("tere");
-        if (a == b){
-            System.out.println(1);
-        }
-        if(a.equals(b)){
-            System.out.println(2);
-        }
+        System.out.println(fibonacci1(6));
     }
 
     // TODO
@@ -25,7 +15,19 @@ public class Lesson3 {
     // leia nii mitmes arv fibonacci jadas
     // lahenda iteratiivselt
     private static int fibonacci1(int nr) {
-        return 0;
+        if (nr < 1){
+            return 0;
+        } else if (nr == 1){
+            return  1;
+        }
+        int eelmine = 1;
+        int eelmine2 = 0;
+        for(int i = 2; i <= nr; i++){
+            int uus = eelmine + eelmine2;
+            eelmine2 = eelmine;
+            eelmine = uus;
+        }
+        return eelmine;
     }
 
     // TODO
