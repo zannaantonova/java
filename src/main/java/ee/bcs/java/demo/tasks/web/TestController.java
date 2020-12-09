@@ -2,10 +2,7 @@ package ee.bcs.java.demo.tasks.web;
 
 import ee.bcs.java.demo.tasks.Lesson1;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.sql.DataSource;
 import java.util.ArrayList;
@@ -38,6 +35,7 @@ public class TestController {
         return savedValue;
     }
 
+    @CrossOrigin
     @GetMapping("lesson3")
     public SampleResult lesson3(){
         SampleResult a = new SampleResult();
@@ -66,10 +64,11 @@ public class TestController {
         return Lesson1.min(a, b);
     }
 
+    @CrossOrigin
     @GetMapping("math/max")
-    public String max3(@RequestParam("aKey") int a,
-                    @RequestParam("bKey") int b,
-                    @RequestParam("cKey")int c){
+    public String max3(@RequestParam("a") int a,
+                    @RequestParam("b") int b,
+                    @RequestParam("c")int c){
         return "See on kõige suurem arv: " + Lesson1.max(a, b, c);
     }
 }
