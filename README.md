@@ -14,7 +14,8 @@ Exceptions: https://drive.google.com/file/d/1LdBhz65SH5l75Yv9c8Qz_RPWjjacjeld/vi
 Testing: https://drive.google.com/file/d/1Eo1Pwg9X0ix2Q7Q5OenfM6ef2hMvMePT/view?usp=sharing  
 HTML: https://drive.google.com/file/d/1GjbgcuBhtrsp3X-WJQfFAhAyljWLSF-Q/view?usp=sharing  
 HTML5 elements: https://drive.google.com/file/d/1BQsgqjpMdt3eN48NqVjdQ_2xlfPPsMzS/view?usp=sharing  
-JD: https://drive.google.com/file/d/1LRdU6SpO_cZ4HwnUomw0RfWPffy35bQg/view?usp=sharing  
+JS: https://drive.google.com/file/d/1LRdU6SpO_cZ4HwnUomw0RfWPffy35bQg/view?usp=sharing  
+Security: https://drive.google.com/file/d/1QfGgOr22jSm2nz5JV5woiFtExv8W5xOf/view?usp=sharing  
 ### Ülsanded
 Kõik ülesanded asuvad src/main/java/ee/bcs/java/demo/tasks/LessonX.java
 * Lesson1
