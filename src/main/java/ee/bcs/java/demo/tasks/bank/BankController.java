@@ -1,5 +1,7 @@
 package ee.bcs.java.demo.tasks.bank;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,10 +18,16 @@ public class BankController {
     @Autowired
     private BankService bankService;
 
+    private final Logger logger = LoggerFactory.getLogger(BankController.class);
+
     // http://localhost:8080/bank/createaccount?iban=EE124
     @GetMapping("createaccount")
     public void createAccount(@RequestParam("iban") String iban) {
-        throw new NullPointerException();
+        try{
+            throw new NullPointerException();
+        } catch (Exception e){
+            logger.error("vea täpsustav tekst", e);
+        }
     //    bankService.createAccount(iban);
     }
 
