@@ -16,7 +16,8 @@ HTML: https://drive.google.com/file/d/1GjbgcuBhtrsp3X-WJQfFAhAyljWLSF-Q/view?usp
 HTML5 elements: https://drive.google.com/file/d/1BQsgqjpMdt3eN48NqVjdQ_2xlfPPsMzS/view?usp=sharing  
 JS: https://drive.google.com/file/d/1LRdU6SpO_cZ4HwnUomw0RfWPffy35bQg/view?usp=sharing  
 Security: https://drive.google.com/file/d/1QfGgOr22jSm2nz5JV5woiFtExv8W5xOf/view?usp=sharing  
-Request Body:  https://drive.google.com/file/d/1-_3HUDgzwvVb9Yl5nqyCALZYnDqdz2E5/view?usp=sharing  
+Request Body: https://drive.google.com/file/d/1-_3HUDgzwvVb9Yl5nqyCALZYnDqdz2E5/view?usp=sharing  
+Google Cloud Deploy: https://drive.google.com/file/d/1inRfdDLI82_UclVJyHn5Krglal3wIocT/view?usp=sharing  
 
 ### Kodune ülesanne
 Teha konto: https://cloud.google.com/
