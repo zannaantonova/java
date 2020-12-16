@@ -11,18 +11,19 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Bean
-    public PasswordEncoder passwordEncoder(){
+    public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                    .antMatchers("/", "/favicon.ico", "/register").permitAll()
+                    .antMatchers("/json/**", "/", "/favicon.ico", "/register").permitAll()
                     .anyRequest().authenticated()
                 .and()
                     .formLogin().permitAll()
                 .and()
                     .logout().permitAll();
+        http.csrf().disable();
     }
 }
