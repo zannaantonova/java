@@ -5,8 +5,33 @@
     <title>Title</title>
 </head>
 <body>
-    Kasutajanimi: <input>
+    Kasutajanimi: <input id="userName">
     <br>
-    Parool: <input type="password">
+    Parool: <input id="password" type="password">
+    <br>
+    <button id="createUser">Loo uus kasutaja</button>
 </body>
+<script>
+    let userName = document.getElementById("userName");
+    let password = document.getElementById("password");
+    let createButton = document.getElementById("createUser")
+    createButton.onclick = function () {
+        let userRequest = {
+            username: userName.value,
+            password: password.value
+        }
+        fetch('http://localhost:8080/register',
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(userRequest)
+            }
+        ).then(function (){
+            alert("Kasutaja loodud")
+            window.location = "/index2.html"
+        })
+    }
+</script>
 </html>

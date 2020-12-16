@@ -18,4 +18,12 @@ public class UserRepository {
         paramMap.put("username", username);
         return jdbcTemplate.queryForObject(sql, paramMap, String.class);
     }
+
+    public void createUser(String userName, String encodedPassword) {
+        String sql = "INSERT INTO users (username, password) VALUES (:userName, :password)";
+        Map<String, String> paramMap = new HashMap<>();
+        paramMap.put("userName", userName);
+        paramMap.put("password", encodedPassword);
+        jdbcTemplate.update(sql, paramMap);
+    }
 }

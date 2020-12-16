@@ -1,5 +1,6 @@
 package ee.bcs.java.demo.tasks.controller;
 
+import ee.bcs.java.demo.tasks.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class JsonTestController {
 
     @Autowired
-    PasswordEncoder passwordEncoder;
+    private UserService userService;
 
     @GetMapping("json/test")
     public JsonMessage jsonTest(){
@@ -23,9 +24,6 @@ public class JsonTestController {
 
     @PostMapping("register")
     public void register(@RequestBody LoginRequest request){
-        System.out.println(request.username);
-        System.out.println(request.password);
-        String encodedPassword = passwordEncoder.encode(request.password);
-        System.out.println(encodedPassword);
+        userService.createUse(request.username, request.password);
     }
 }
