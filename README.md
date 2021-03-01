@@ -2,11 +2,10 @@
 Sissejuhatus: https://drive.google.com/file/d/1dIZCBYsmAo1ysrZv31lt72ZGj-B9RRM2/view?usp=sharing  
 Muutujad, operatsioonid, tingimuslaused: https://drive.google.com/file/d/1goxt_No24CuxjXSM1TPd14tJ5YvFUemj/view?usp=sharing  
 
-### Ülsanded
-Kõik ülesanded asuvad src/main/java/ee/bcs/java/demo/tasks/LessonX.java
-* Lesson1
+## Tunni Ülsanded
+https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
 
-### Lisa ülesanded (rasked)
+## Lisa ülesanded
 ### Raskus 8
 https://www.codewars.com/kata/57d814e4950d8489720008db  
 https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1  
