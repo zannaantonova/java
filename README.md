@@ -1,6 +1,7 @@
 ## Slaidid
 Sissejuhatus: https://drive.google.com/file/d/1dIZCBYsmAo1ysrZv31lt72ZGj-B9RRM2/view?usp=sharing  
 Muutujad, operatsioonid, tingimuslaused: https://drive.google.com/file/d/1goxt_No24CuxjXSM1TPd14tJ5YvFUemj/view?usp=sharing  
+Stringid, meetodid: https://drive.google.com/file/d/1oNUztOrWAcDYY_2205CLkmSRMmvJn8aE/view?usp=sharing  
 
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
