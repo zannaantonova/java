@@ -5,7 +5,10 @@ public class Lesson2b {
 
     }
     // TODO trüki välja n arvu
-    public static void exercise1(){
+    // näiteks
+    // sisend: 5
+    // trüki välja: 1 2 3 4 5
+    public static void exercise1(int n){
 
     }
 
@@ -19,7 +22,7 @@ public class Lesson2b {
     // näiteks:
     // sisend: 5
     // vastus: {1, 2, 3, 4, 5}
-    public static int[] generateArray(){
+    public static int[] generateArray(int n){
         return new int[0];
     }
 }
