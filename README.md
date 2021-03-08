@@ -6,6 +6,12 @@ Stringid, meetodid: https://drive.google.com/file/d/1oNUztOrWAcDYY_2205CLkmSRMmv
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
 
+## Loengud
+01.03.2021: https://us02web.zoom.us/rec/share/MX5NusgV18pW-4-UttH3p0R1c2irAHBddWfeGuEJyVs3r8kcGD_8YMuyux7qjurm.XMesZVqb1dI0YQ5I  
+03.03.2021: https://us02web.zoom.us/rec/share/Ke8yld8kHJZv6Ljpie98K1Lsr3qlI6BrMHDjCDbPp7M6IDweG_xmWzqu08nkdF9e.e5TXBJOLu-txm3rg  
+08.03.2021: 
+10.03.2021: 
+
 ## Lisa ülesanded
 ### Raskus 8
 https://www.codewars.com/kata/57d814e4950d8489720008db  
