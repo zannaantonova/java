@@ -36,13 +36,13 @@ class Lesson2Test {
     @Test
     void max() {
         int[] input = {2, 4, 5, -2, -1};
-        Assertions.assertEquals(5, Lesson2.min(input));
+        Assertions.assertEquals(5, Lesson2.max(input));
     }
 
     @Test
     void sum() {
         int[] input = {2, 4, 5, -2, -1};
-        Assertions.assertEquals(8, Lesson2.min(input));
+        Assertions.assertEquals(8, Lesson2.sum(input));
     }
 
     @Test
