@@ -32,8 +32,8 @@ class Lesson3Test {
     @Test
     void sort() {
         int[] x = new int[]{6, 2, 7, 3, 1};
-        int[] result =new int[]{1, 2, 4, 6, 7};
-        assertArrayEquals(result, x);
+        int[] expectedResult = new int[]{1, 2, 4, 6, 7};
+        assertArrayEquals(expectedResult, Lesson3.sort(x));
         assertArrayEquals(new int[0], new int[0]);
         assertArrayEquals(new int[1], new int[1]);
     }
