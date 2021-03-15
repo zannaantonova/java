@@ -11,7 +11,9 @@ https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/ta
 01.03.2021: https://us02web.zoom.us/rec/share/MX5NusgV18pW-4-UttH3p0R1c2irAHBddWfeGuEJyVs3r8kcGD_8YMuyux7qjurm.XMesZVqb1dI0YQ5I  
 03.03.2021: https://us02web.zoom.us/rec/share/Ke8yld8kHJZv6Ljpie98K1Lsr3qlI6BrMHDjCDbPp7M6IDweG_xmWzqu08nkdF9e.e5TXBJOLu-txm3rg  
 08.03.2021: https://us02web.zoom.us/rec/share/_Rfwjfz0z5mdOcgevzHBKINcnnYO13EHsclo3_8f9kcFKGS5SRw7Qsd6xLPjgbiL.xEnEWCA8U9UP0SWy  
-10.03.2021: 
+10.03.2021: https://us02web.zoom.us/rec/share/zpM_sUcLPxoEMYU_2MCqalRjYoks8AUo_GIm6vK274Ntgna0mwB4dtH07fuuQeyJ.LT2KcizhISG-aJ8i  
+15.03.2021:  
+17.03.2021:  
 
 ## Lisa ülesanded
 ### Raskus 8
