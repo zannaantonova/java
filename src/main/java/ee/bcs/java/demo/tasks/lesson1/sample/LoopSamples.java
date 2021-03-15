@@ -2,6 +2,11 @@ package ee.bcs.java.demo.tasks.lesson1.sample;
 
 public class LoopSamples {
     public static void main(String[] args) {
+        sample1();
+        simpleWhileSample();
+    }
+
+    public static void sample1(){
         int[] sisend = {2, 5, 7, 3, 5, 7, 2, 7, 2, 6, 1, 9};
 
         int x = 0;
@@ -34,6 +39,14 @@ public class LoopSamples {
             if(y > 9){
                 break;
             }
+        }
+    }
+
+    public static void simpleWhileSample(){
+        int x = 100;
+        while(x >= 0){
+            System.out.println(x);
+            x--;
         }
     }
 }

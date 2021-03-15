@@ -3,6 +3,7 @@ Sissejuhatus: https://drive.google.com/file/d/1dIZCBYsmAo1ysrZv31lt72ZGj-B9RRM2/
 Muutujad, operatsioonid, tingimuslaused: https://drive.google.com/file/d/1goxt_No24CuxjXSM1TPd14tJ5YvFUemj/view?usp=sharing  
 Stringid, meetodid: https://drive.google.com/file/d/1oNUztOrWAcDYY_2205CLkmSRMmvJn8aE/view?usp=sharing  
 Massiivid, tsüklid: https://drive.google.com/file/d/1XI03xXHho84E9P7JuYV49Xf8BZIxFvgZ/view?usp=sharing  
+Kollektsioonid: https://drive.google.com/file/d/1l0LbR9t3g2UeeEd-xe8Y0F_R6VegJqXV/view?usp=sharing
 
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks

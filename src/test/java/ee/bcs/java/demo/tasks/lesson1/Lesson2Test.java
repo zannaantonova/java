@@ -60,7 +60,7 @@ class Lesson2Test {
 
     @Test
     void sequence3n() {
-        Assertions.assertEquals(20, Lesson2.sequence3n(10, 20));
+        Assertions.assertEquals(20, Lesson2.sequence3n(1, 10));
         Assertions.assertEquals(125, Lesson2.sequence3n(100, 200));
         Assertions.assertEquals(89, Lesson2.sequence3n(201, 210));
         Assertions.assertEquals(174, Lesson2.sequence3n(900, 1000));
