@@ -147,8 +147,31 @@ public class Lesson2Solution {
     // Näiteks sisendi 10 ja 20 puhul on vastus 20
 
     public static int sequence3n(int x, int y) {
-        return 0;
+        int maxLength = 0;
+        for(int i = x; i <= y; i++){
+            int length = seqLength(i);
+            if (length > maxLength) {
+                maxLength = length;
+            }
+        }
+        return maxLength;
     }
 
+    private static int seqLength(int i) {
+        int count = 1;
+        while(i > 1){
+            i = nextSeqElement(i);
+            count++;
+        }
+        return count;
+    }
+
+    private static int nextSeqElement(int i) {
+        if(i % 2 == 1){
+            return 3*i + 1;
+        } else {
+            return i/2;
+        }
+    }
 
 }

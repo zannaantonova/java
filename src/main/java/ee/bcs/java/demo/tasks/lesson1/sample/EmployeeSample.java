@@ -11,10 +11,10 @@ public class EmployeeSample {
         Scanner scanner = new Scanner(System.in);
         while (true) {
             System.out.println("Sisesta käsklus");
-            String line = scanner.nextLine();
-            if (line.equalsIgnoreCase("exit")) {
+            String sisend = scanner.nextLine();
+            if (sisend.equalsIgnoreCase("exit")) {
                 break;
-            } else if("createEmployee".equals(line)){
+            } else if("createEmployee".equals(sisend)){
                 System.out.println("Palun sisesta töötaja eesnimi");
                 String firstName = scanner.nextLine();
                 System.out.println("Palun sisesta töötaja perekonna nimi");
@@ -23,10 +23,10 @@ public class EmployeeSample {
                 String phoneNumber = scanner.nextLine();
                 list.add(new Employee(firstName, lastName, phoneNumber));
                 System.out.println("Sisestati töötaja indeksiga" + (list.size() - 1));
-            } else if("getEmployees".equals(line)) {
+            } else if("getEmployees".equals(sisend)) {
                 System.out.println("Töötajate nimekiri on: ");
                 System.out.println(list);
-            } else if("deleteEmployee".equals(line)) {
+            } else if("deleteEmployee".equals(sisend)) {
                 System.out.println("Sisesta töötaja id");
                 list.remove(scanner.nextInt());
                 scanner.nextLine();
