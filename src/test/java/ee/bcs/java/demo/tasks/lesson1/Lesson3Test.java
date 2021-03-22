@@ -48,6 +48,6 @@ class Lesson3Test {
     @Test
     void morseCode() {
         assertEquals(".... . .-.. .-.. ---", Lesson3.morseCode("hello"));
-        assertEquals("... --- ...", Lesson3.morseCode("sos  "));
+        assertEquals("... --- ...", Lesson3.morseCode("sos"));
     }
 }
