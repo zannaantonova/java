@@ -6,6 +6,7 @@ Massiivid, tsüklid: https://drive.google.com/file/d/1XI03xXHho84E9P7JuYV49Xf8BZ
 Kollektsioonid: https://drive.google.com/file/d/1l0LbR9t3g2UeeEd-xe8Y0F_R6VegJqXV/view?usp=sharing  
 Klassid, objektid: https://drive.google.com/file/d/1wF-r3Sc6ui1MKFh5yPe2_XiQ5OJc-CDr/view?usp=sharing  
 Web: https://drive.google.com/file/d/1zp-zU8rJwvhyc3zX7KvUPqmNjFcdakiH/view?usp=sharing  
+Json: https://drive.google.com/file/d/13O97h59qOKlxBVQKArlxr8i--IybxYzc/view?usp=sharing  
 
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
@@ -17,7 +18,7 @@ https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/ta
 10.03.2021: https://us02web.zoom.us/rec/share/zpM_sUcLPxoEMYU_2MCqalRjYoks8AUo_GIm6vK274Ntgna0mwB4dtH07fuuQeyJ.LT2KcizhISG-aJ8i  
 15.03.2021: https://us02web.zoom.us/rec/share/J814o0c6Vcxpp-SUN6yc2mh-xZdbr6Eg_8zXxo_qaTQpXcpTLED8UZT_AavK_pD4.KIWArc2hSnC2XufJ  
 17.03.2021: https://us02web.zoom.us/rec/share/TQP-RHOs5My0H_spyQs8N9MgZ8qwYXR4CYQPRWaSxjhxVn3t5cTuxL4bBXqVThPh.MxrgxSo04VUhUtbO   
-22.03.2021:  
+22.03.2021: https://us02web.zoom.us/rec/share/mzJFh4uvCIdKiOe_W5_pYVx_rwoN2UNLtymaOp8a1fGgJ__wKNbxauPqif9VsKU.EkLHo4bKPvUg-umL  
 24.03.2021:  
 ## Lisa ülesanded
 ### Raskus 8
