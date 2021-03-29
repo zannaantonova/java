@@ -20,7 +20,7 @@ https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/ta
 15.03.2021: https://us02web.zoom.us/rec/share/J814o0c6Vcxpp-SUN6yc2mh-xZdbr6Eg_8zXxo_qaTQpXcpTLED8UZT_AavK_pD4.KIWArc2hSnC2XufJ  
 17.03.2021: https://us02web.zoom.us/rec/share/TQP-RHOs5My0H_spyQs8N9MgZ8qwYXR4CYQPRWaSxjhxVn3t5cTuxL4bBXqVThPh.MxrgxSo04VUhUtbO   
 22.03.2021: https://us02web.zoom.us/rec/share/mzJFh4uvCIdKiOe_W5_pYVx_rwoN2UNLtymaOp8a1fGgJ__wKNbxauPqif9VsKU.EkLHo4bKPvUg-umL  
-24.03.2021: https://us02web.zoom.us/rec/share/c4wJuBkvRT3mJ-Ckhj84bSeawIkUoVryQD-8iKa5Vs3L-cqIPDDwRZQKTtpMOCR9.jigOLl4Y4XO9djl_  
+24.03.2021: https://us02web.zoom.us/rec/share/cQVVGZAHnlh4rrKARyqmSbi0XYyivCJ1u5uXdGLXWXh-z0Mzf5xoeX0FMd1EtGCU.N40WvxTMIS01D_Yl  
 
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
