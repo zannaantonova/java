@@ -7,6 +7,7 @@ Kollektsioonid: https://drive.google.com/file/d/1l0LbR9t3g2UeeEd-xe8Y0F_R6VegJqX
 Klassid, objektid: https://drive.google.com/file/d/1wF-r3Sc6ui1MKFh5yPe2_XiQ5OJc-CDr/view?usp=sharing  
 Web: https://drive.google.com/file/d/1zp-zU8rJwvhyc3zX7KvUPqmNjFcdakiH/view?usp=sharing  
 Json: https://drive.google.com/file/d/13O97h59qOKlxBVQKArlxr8i--IybxYzc/view?usp=sharing  
+Git: https://drive.google.com/file/d/15SEM7lnQ2kJGG2zr7xuiYGg62PCcRsvT/view?usp=sharing  
 
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
