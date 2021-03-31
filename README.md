@@ -8,6 +8,7 @@ Klassid, objektid: https://drive.google.com/file/d/1wF-r3Sc6ui1MKFh5yPe2_XiQ5OJc
 Web: https://drive.google.com/file/d/1zp-zU8rJwvhyc3zX7KvUPqmNjFcdakiH/view?usp=sharing  
 Json: https://drive.google.com/file/d/13O97h59qOKlxBVQKArlxr8i--IybxYzc/view?usp=sharing  
 Git: https://drive.google.com/file/d/15SEM7lnQ2kJGG2zr7xuiYGg62PCcRsvT/view?usp=sharing  
+SQL: https://drive.google.com/file/d/1IN0Ds9B3Ez1jX2LuYQ6isiMSrDgruOoT/view?usp=sharing
 
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
@@ -21,6 +22,8 @@ https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/ta
 17.03.2021: https://us02web.zoom.us/rec/share/TQP-RHOs5My0H_spyQs8N9MgZ8qwYXR4CYQPRWaSxjhxVn3t5cTuxL4bBXqVThPh.MxrgxSo04VUhUtbO   
 22.03.2021: https://us02web.zoom.us/rec/share/mzJFh4uvCIdKiOe_W5_pYVx_rwoN2UNLtymaOp8a1fGgJ__wKNbxauPqif9VsKU.EkLHo4bKPvUg-umL  
 24.03.2021: https://us02web.zoom.us/rec/share/cQVVGZAHnlh4rrKARyqmSbi0XYyivCJ1u5uXdGLXWXh-z0Mzf5xoeX0FMd1EtGCU.N40WvxTMIS01D_Yl  
+29.03.2021: https://us02web.zoom.us/rec/share/Ku16yw-uvABGhLWFOmaYrlBcRcIEuQCv7WPdf1Gm7rmH3UMp7IWfd9OBMY_HMS8W.VgNNgd0AbKRZ9epo  
+31.03.2021: 
 
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
