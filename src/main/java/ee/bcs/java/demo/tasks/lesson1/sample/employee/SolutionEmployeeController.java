@@ -1,4 +1,4 @@
-package ee.bcs.java.demo.tasks.lesson1.controller.employee;
+package ee.bcs.java.demo.tasks.lesson1.sample.employee;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -15,18 +15,17 @@ public class SolutionEmployeeController {
     private NamedParameterJdbcTemplate jdbcTemplate;
 
     @GetMapping("employee")
-    public List<String> getEmployees(){
-        String sql = "SELECT first_name FROM employee";
-        return jdbcTemplate.queryForList(sql, new HashMap<>(), String.class);
+    public List<SolutionEmployee> getEmployees(){
+        String sql = "SELECT * FROM employee";
+        return jdbcTemplate.query(sql, new HashMap<>(), new SolutionEmployeeRowMapper());
     }
 
     @GetMapping("employee/{id}")
-    public String getEmployee(@PathVariable("id") int id){
+    public SolutionEmployee getEmployee(@PathVariable("id") int id){
         String sql = "SELECT first_name FROM employee WHERE id = :id";
         Map<String, Object> paramMap = new HashMap<>();
         paramMap.put("id", id);
-        String firstName = jdbcTemplate.queryForObject(sql, paramMap, String.class);
-        return firstName;
+        return jdbcTemplate.queryForObject(sql, paramMap, new SolutionEmployeeRowMapper());
     }
 
     @PutMapping("employee/{id}")

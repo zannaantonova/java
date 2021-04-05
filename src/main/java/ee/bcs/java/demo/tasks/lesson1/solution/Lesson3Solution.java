@@ -21,7 +21,7 @@ public class Lesson3Solution {
     public static String reverseString(String a) {
         String result = "";
         for (int i = a.length(); i > 0; i--) {
-            result += a.substring(i - 1, i);
+            result += a.substring(i - 1, i);  // Hello World
         }
         return result;
     }
