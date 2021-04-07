@@ -1,8 +1,18 @@
-package ee.bcs.java.demo.tasks.lesson1.controller.employee;
+package ee.bcs.java.demo.tasks.lesson1.sample.employee;
 
 public class SolutionEmployee {
+    private Integer id;
     private String firstName;
     private String lastName;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public SolutionEmployee setId(Integer id) {
+        this.id = id;
+        return this;
+    }
 
     public String getFirstName() {
         return firstName;
