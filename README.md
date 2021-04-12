@@ -10,6 +10,7 @@ Json: https://drive.google.com/file/d/13O97h59qOKlxBVQKArlxr8i--IybxYzc/view?usp
 Git: https://drive.google.com/file/d/15SEM7lnQ2kJGG2zr7xuiYGg62PCcRsvT/view?usp=sharing  
 SQL: https://drive.google.com/file/d/1IN0Ds9B3Ez1jX2LuYQ6isiMSrDgruOoT/view?usp=sharing  
 Liquibase: https://drive.google.com/file/d/12R30Bihvh87CJI4z_2bZLkqlIEFNuj5l/view?usp=sharing  
+Web2: https://drive.google.com/file/d/11wSkSBM99jskzvQsh-u0HuTZF3NdHLdq/view?usp=sharing  
 
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
