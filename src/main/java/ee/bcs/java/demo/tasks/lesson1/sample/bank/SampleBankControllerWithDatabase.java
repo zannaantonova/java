@@ -9,7 +9,7 @@ import java.util.Map;
 
 @RequestMapping("sample_old")
 @RestController
-public class SampleBankControllerWithoutService {
+public class SampleBankControllerWithDatabase {
 
     @Autowired
     private NamedParameterJdbcTemplate jdbcTemplate;
