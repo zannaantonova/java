@@ -24,7 +24,7 @@ https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/ta
 17.03.2021: https://us02web.zoom.us/rec/share/TQP-RHOs5My0H_spyQs8N9MgZ8qwYXR4CYQPRWaSxjhxVn3t5cTuxL4bBXqVThPh.MxrgxSo04VUhUtbO   
 22.03.2021: https://us02web.zoom.us/rec/share/mzJFh4uvCIdKiOe_W5_pYVx_rwoN2UNLtymaOp8a1fGgJ__wKNbxauPqif9VsKU.EkLHo4bKPvUg-umL  
 24.03.2021: https://us02web.zoom.us/rec/share/cQVVGZAHnlh4rrKARyqmSbi0XYyivCJ1u5uXdGLXWXh-z0Mzf5xoeX0FMd1EtGCU.N40WvxTMIS01D_Yl  
-29.03.2021: https://us02web.zoom.us/rec/share/Ku16yw-uvABGhLWFOmaYrlBcRcIEuQCv7WPdf1Gm7rmH3UMp7IWfd9OBMY_HMS8W.VgNNgd0AbKRZ9epo  
+29.03.2021: https://us02web.zoom.us/rec/share/hBCGw6QBSvw8abnwEX43Lp4bKtN1Q22LNuzhNqaFzYVhTv5SvNM9d5xi8TI-NmTs.3jJYPpBIReDvpUL5  
 31.03.2021: https://us02web.zoom.us/rec/share/A9E0bMfJtloEfmkyiDj8Ar2vYheK_8kSn9uwmp-FBY-lwNJr2qaQNMZlg-iOh5Xj.5ETgOQ3cTLM7mRNm  
 05.04.2021: https://us02web.zoom.us/rec/share/rQKi6FHKrYoYqCKfgtezkUjiCs1-6n36OGNHelOxhyCIlcCNM_mXk5r2CAykPJQv.VBoL6zcAaZ69l1io  
 07.04.2021: https://us02web.zoom.us/rec/share/ZkEIgMTbMwqggXZxsRxGtXQgG8az3kaVytstAjiiqAg8JEpzDRCPrtwToxW31Z6I.db0sfOtc6gTkzqFu  
