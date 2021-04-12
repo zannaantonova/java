@@ -14,12 +14,12 @@ public class SampleBankController {
     @Autowired
     private NamedParameterJdbcTemplate jdbcTemplate;
 
+    @Autowired
+    private SampleBankService bankService;
+
     @PostMapping("account")
     public void createAccount(@RequestParam("accountNumber") String accountNumber){
-        String sql = "INSERT INTO account (account_number, balance) VALUES (:accountNumber, 0)";
-        Map<String, Object> paramMap = new HashMap<>();
-        paramMap.put("accountNumber", accountNumber);
-        jdbcTemplate.update(sql, paramMap);
+        bankService.createAccount(accountNumber);
     }
 
     @GetMapping("account/{accountNumber}")
