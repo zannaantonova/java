@@ -19,4 +19,36 @@ public class SampleBankService {
     public void createAccount(String accountNumber){
         bankRepository.createAccount(accountNumber);
     }
+
+    public double getBalance(String accountNumber) {
+        return bankRepository.getBalance(accountNumber);
+    }
+
+    public void depositMoney(String accountNumber, double amount) {
+        if(amount > 0){
+            double balance = bankRepository.getBalance(accountNumber);
+            double newBalance = balance + amount;
+            bankRepository.updateAccountBalance(accountNumber, newBalance);
+        }
+    }
+
+    public void transferMoney(String fromAccount, String toAccount, Double amount) {
+        if(amount > 0){
+            double fromAccountBalance = bankRepository.getBalance(fromAccount);
+            if (fromAccountBalance >= amount) {
+                bankRepository.updateAccountBalance(fromAccount, fromAccountBalance - amount);
+                double toAccountBalance = bankRepository.getBalance(toAccount);
+                bankRepository.updateAccountBalance(toAccount, toAccountBalance + amount);
+            }
+        }
+    }
+
+    public void withdrawMoney(String accountNumber, double amount) {
+        if(amount > 0) {
+            double balance = bankRepository.getBalance(accountNumber);
+            if (balance >= amount) {
+                bankRepository.updateAccountBalance(accountNumber, balance - amount);
+            }
+        }
+    }
 }
