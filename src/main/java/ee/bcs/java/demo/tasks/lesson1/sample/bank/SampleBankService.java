@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -18,20 +19,33 @@ public class SampleBankService {
     @Autowired
     private SampleBankRepository bankRepository;
 
+    @Autowired
+    private AccountRepository accountRepository;
+
     public void createAccount(String accountNumber){
-        bankRepository.createAccount(accountNumber);
+        Account account = new Account();
+        account.setAccountNumber(accountNumber);
+        account.setBalance(0.0);
+        accountRepository.save(account);
     }
 
     public double getBalance(String accountNumber) {
-        return bankRepository.getBalance(accountNumber);
+        return accountRepository.getAccountByAccountNumber(accountNumber).getBalance();
+        //return bankRepository.getBalance(accountNumber);
     }
 
     public void depositMoney(String accountNumber, double amount) {
         if(amount > 0){
+            Account account = accountRepository.getAccountByAccountNumber(accountNumber);
+            double newBalance = account.getBalance() + amount;
+            account.setBalance(newBalance);
+            accountRepository.save(account);
+        }
+        /*        if(amount > 0){
             double balance = bankRepository.getBalance(accountNumber);
             double newBalance = balance + amount;
             bankRepository.updateAccountBalance(accountNumber, newBalance);
-        }
+        }*/
     }
 
     public void transferMoney(String fromAccount, String toAccount, Double amount) {
@@ -58,5 +72,12 @@ public class SampleBankService {
 
     public List<Transaction> getTransactionHistory(String accountNumber) {
         return null;
+    }
+
+    @Transactional
+    public String getName(String accountNumber) {
+        Account account =  accountRepository.getAccountByAccountNumber(accountNumber);
+        Customer customer = account.getCustomer();
+        return customer.getName();
     }
 }
