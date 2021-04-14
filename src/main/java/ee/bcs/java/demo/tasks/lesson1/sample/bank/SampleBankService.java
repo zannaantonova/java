@@ -1,10 +1,12 @@
 package ee.bcs.java.demo.tasks.lesson1.sample.bank;
 
+import ee.bcs.java.demo.tasks.lesson1.sample.MyException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -44,11 +46,17 @@ public class SampleBankService {
     }
 
     public void withdrawMoney(String accountNumber, double amount) {
-        if(amount > 0) {
-            double balance = bankRepository.getBalance(accountNumber);
-            if (balance >= amount) {
-                bankRepository.updateAccountBalance(accountNumber, balance - amount);
-            }
+        if (amount <= 0) {
+            throw new MyException("Sisestatud summa peab olema suurem kui 0");
         }
+        double balance = bankRepository.getBalance(accountNumber);
+        if (balance < amount) {
+            throw new MyException("Kontol pole piisavalt raha");
+        }
+        bankRepository.updateAccountBalance(accountNumber, balance - amount);
+    }
+
+    public List<Transaction> getTransactionHistory(String accountNumber) {
+        return null;
     }
 }
