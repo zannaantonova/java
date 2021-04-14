@@ -12,6 +12,7 @@ SQL: https://drive.google.com/file/d/1IN0Ds9B3Ez1jX2LuYQ6isiMSrDgruOoT/view?usp=
 Liquibase: https://drive.google.com/file/d/12R30Bihvh87CJI4z_2bZLkqlIEFNuj5l/view?usp=sharing  
 Web2: https://drive.google.com/file/d/11wSkSBM99jskzvQsh-u0HuTZF3NdHLdq/view?usp=sharing  
 Exceptiond: https://drive.google.com/file/d/1UQE6GF7YCL8zCrLI-0dGyNbkEn--DgTB/view?usp=sharing  
+Hibernate, Spring Data: https://drive.google.com/file/d/1K24Hfe9oxXZDmefuwx4_AWL9lMVoiAg_/view?usp=sharing  
 
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
