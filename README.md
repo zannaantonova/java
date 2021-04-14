@@ -49,3 +49,6 @@ https://www.codewars.com/kata/5a24a35a837545ab04001614
 ### Raskus 4
 https://www.codewars.com/kata/5819f1c3c6ab1b2b28000624  
 https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1  
+
+## Materjalid
+IntelliJ IDEA Reference guide: https://drive.google.com/file/d/1xnH8zF8RPo8HIUcs7LgSnIupdwLaLZbn/view  
