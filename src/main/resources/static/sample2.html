@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+<ul id="list">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
+Konto number: <input id="input1">
+<button id="button1">Salvesta</button>
+<h1>Min funktsioon</h1>
+<input id="min1"/>
+<input id="min2">
+<button id="minButton">miinimum</button>
+<p id="minValue"></p>
+<script>
+    let min1 = document.getElementById("min1");
+    let min2 = document.getElementById("min2");
+    let minButton = document.getElementById("minButton");
+    minButton.onclick = function () {
+        let minValue = document.getElementById("minValue");
+        if(Number(min1.value) < Number(min2.value)){
+            minValue.innerHTML = min1.value;
+        } else {
+            minValue.innerHTML = min2.value;
+        }
+    };
+
+
+
+
+    let list = document.getElementById("list");
+    let button = document.getElementById("button1");
+    let input1 = document.getElementById("input1");
+
+    button.onclick = function() {
+        let newElement = document.createElement("li");
+        newElement.innerHTML = input1.value;
+        list.appendChild(newElement);
+    }
+    /*
+    let a = '5';
+    let b = 5;
+    let c = a + b;
+    alert(c);
+    let d = c - 5;
+    alert(d);
+    let x = " ' ";
+    let y = ' "midagi" ';*/
+/*
+    function midagi(a, b, c,d = -99) {
+        alert(a);
+        alert(b);
+        alert(c);
+        alert(d);
+    }
+    midagi(1,2,3,4,5); // ignoreerime viimast muutujat
+    midagi(1,2); //3 ja 4 parameeter = undefined
+*/
+</script>
+</body>
+</html>
