@@ -14,6 +14,7 @@ Web2: https://drive.google.com/file/d/11wSkSBM99jskzvQsh-u0HuTZF3NdHLdq/view?usp
 Exceptiond: https://drive.google.com/file/d/1UQE6GF7YCL8zCrLI-0dGyNbkEn--DgTB/view?usp=sharing  
 Hibernate, Spring Data: https://drive.google.com/file/d/1K24Hfe9oxXZDmefuwx4_AWL9lMVoiAg_/view?usp=sharing
 HTML: https://drive.google.com/file/d/1geI7zpL-7vf3g_JmKK4l3LEZ_zRPK8GL/view?usp=sharing  
+HTML2: https://drive.google.com/file/d/16GMVwusEuQPAJufvzbbaf2WgG9KS9VYd/view?usp=sharing  
 
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
