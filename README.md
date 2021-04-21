@@ -16,7 +16,7 @@ Hibernate, Spring Data: https://drive.google.com/file/d/1K24Hfe9oxXZDmefuwx4_AWL
 HTML: https://drive.google.com/file/d/1geI7zpL-7vf3g_JmKK4l3LEZ_zRPK8GL/view?usp=sharing  
 HTML2: https://drive.google.com/file/d/16GMVwusEuQPAJufvzbbaf2WgG9KS9VYd/view?usp=sharing  
 Javascript: https://drive.google.com/file/d/141ENRhb_LwA-_zqs8Of-bETUZFzyjYeP/view?usp=sharing  
-
+Fetch & Promise: https://drive.google.com/file/d/1MkgDhESpb1MOxsFCKML-UYB4N6s7l9ES/view?usp=sharing  
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
 
