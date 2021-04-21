@@ -1,10 +1,12 @@
 package ee.bcs.java.demo.tasks.lesson1.sample.bank;
 
+import ee.bcs.java.demo.tasks.lesson1.solution.ErrorResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @RequestMapping("sample")
@@ -22,9 +24,15 @@ public class SampleBankController {
         bankService.createAccount(accountNumber);
     }
 
+    @CrossOrigin
     @GetMapping("account/{accountNumber}")
     public double getBalance(@PathVariable("accountNumber") String accountNumber) {
         return bankService.getBalance(accountNumber);
+    }
+
+    @GetMapping("account/{accountNumber}/name")
+    public String getName(@PathVariable("accountNumber") String accountNumber) {
+        return bankService.getName(accountNumber);
     }
 
     @PutMapping("account/deposit/{accountNumber}")
@@ -33,8 +41,11 @@ public class SampleBankController {
     }
 
     @PutMapping("account/withdraw/{accountNumber}")
-    public void withdrawMoney(@PathVariable("accountNumber") String accountNumber, @RequestParam("amount") double amount) {
+    public ErrorResponse withdrawMoney(@PathVariable("accountNumber") String accountNumber, @RequestParam("amount") double amount) {
         bankService.withdrawMoney(accountNumber, amount);
+        ErrorResponse response = new ErrorResponse();
+        response.setMessage("Raha väljavõtmine õnnestus");
+        return response;
     }
 
     @PutMapping("account/transfer")
@@ -42,5 +53,10 @@ public class SampleBankController {
                               @RequestParam("toAccount") String toAccount,
                               @RequestParam("amount") Double amount) {
         bankService.transferMoney(fromAccount, toAccount, amount);
+    }
+
+    @GetMapping("account/transactionHistory")
+    public List<Transaction> getTransactions(@RequestParam("accountNumber") String accountNumber) {
+        return bankService.getTransactionHistory(accountNumber);
     }
 }

@@ -1,0 +1,59 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+Konto number: <input id="input1">
+<button id="button1">Save</button>
+<button id="button2">Display balance</button>
+<p id="vastus"></p>
+<script>
+    let button = document.getElementById("button1");
+    let button2 = document.getElementById("button2");
+    let input1 = document.getElementById("input1");
+
+
+    button.onclick = function () {
+        let configObject =
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: {}
+            };
+        let url = 'http://localhost:8080/sample/account?accountNumber=' + input1.value;
+        fetch(url, configObject);
+    }
+
+    button2.onclick = function() {
+        let url = 'http://localhost:8080/sample/account/' + input1.value;
+        fetch(url)
+            .then(response => response.text()) // function(response) { return response.text()}
+            .then(function(a) {
+                let vastus = document.getElementById("vastus");
+                vastus.innerHTML = a;
+            })
+    }
+    /*
+    let a = '5';
+    let b = 5;
+    let c = a + b;
+    alert(c);
+    let d = c - 5;
+    alert(d);
+    let x = " ' ";
+    let y = ' "midagi" ';*/
+    /*
+        function midagi(a, b, c,d = -99) {
+            alert(a);
+            alert(b);
+            alert(c);
+            alert(d);
+        }
+        midagi(1,2,3,4,5); // ignoreerime viimast muutujat
+        midagi(1,2); //3 ja 4 parameeter = undefined
+    */
+</script>
+</body>
+</html>
