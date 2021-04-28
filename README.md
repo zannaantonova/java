@@ -17,7 +17,7 @@ HTML: https://drive.google.com/file/d/1geI7zpL-7vf3g_JmKK4l3LEZ_zRPK8GL/view?usp
 HTML2: https://drive.google.com/file/d/16GMVwusEuQPAJufvzbbaf2WgG9KS9VYd/view?usp=sharing  
 Javascript: https://drive.google.com/file/d/141ENRhb_LwA-_zqs8Of-bETUZFzyjYeP/view?usp=sharing  
 Fetch & Promise: https://drive.google.com/file/d/1MkgDhESpb1MOxsFCKML-UYB4N6s7l9ES/view?usp=sharing  
-Vue: https://drive.google.com/file/d/1yurYyrEP6VOE9YAgRrDmdl8lSvPmCR-f/view?usp=sharing  
+Vue: https://drive.google.com/file/d/1AbharV399KuoeaxXnUf59yH8wJW0M1sD/view?usp=sharing  
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
 
@@ -38,7 +38,10 @@ https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/ta
 14.04.2021: https://us02web.zoom.us/rec/share/M6vuPBJ6mZ3nIgKM6-GCTHSey6oXPh3Ts1-kmEGFRm3hEIXtv-eBAO4JSkZ8KYAz.Q-CJ34MQGGPT3-vD  
 19.04.2021: https://us02web.zoom.us/rec/share/UJZ1rBaNx6jNtPwygVvAMWg8TgvfJYqm5FGQ70iLrGXNkHNUMIpFoIBMIGiximMS.8ZQ9lqpsIbyUwv38  
 21.04.2021: https://us02web.zoom.us/rec/share/cDYQar9CT44FLw9gZB73UM3D99oYzfLFFlRiGXaGia7E2ptzQ-y7RxzzG3l3lN21.66dE16SMXxJkoxSU  
-
+26.04.2021: https://us02web.zoom.us/rec/share/egAK_0JzTLvmT5Q4eRsHnpam2cz2OdlAx8EAzRDkoRzH6CUl_LY7A0ulb6iBhGMT.aPHlTiOKuF9FqHJR  
+28.04.2021:  
+03.05.2021:  
+05.05.2021:  
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
 https://www.codewars.com/kata/57d814e4950d8489720008db  
