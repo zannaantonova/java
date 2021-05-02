@@ -39,7 +39,7 @@ https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/ta
 19.04.2021: https://us02web.zoom.us/rec/share/UJZ1rBaNx6jNtPwygVvAMWg8TgvfJYqm5FGQ70iLrGXNkHNUMIpFoIBMIGiximMS.8ZQ9lqpsIbyUwv38  
 21.04.2021: https://us02web.zoom.us/rec/share/cDYQar9CT44FLw9gZB73UM3D99oYzfLFFlRiGXaGia7E2ptzQ-y7RxzzG3l3lN21.66dE16SMXxJkoxSU  
 26.04.2021: https://us02web.zoom.us/rec/share/egAK_0JzTLvmT5Q4eRsHnpam2cz2OdlAx8EAzRDkoRzH6CUl_LY7A0ulb6iBhGMT.aPHlTiOKuF9FqHJR  
-28.04.2021:  
+28.04.2021: https://us02web.zoom.us/rec/share/uFFaDlAnp3XBgARAhFFjqO1jAARPX0t-OzAtWbj_BfjdIumIaRvDBCdZ5xXfs2oh.aeRY-3QHixi1pI3I  
 03.05.2021:  
 05.05.2021:  
 ## Lisaülesanded (väiksem number = raskem ülesanne)
