@@ -18,6 +18,7 @@ HTML2: https://drive.google.com/file/d/16GMVwusEuQPAJufvzbbaf2WgG9KS9VYd/view?us
 Javascript: https://drive.google.com/file/d/141ENRhb_LwA-_zqs8Of-bETUZFzyjYeP/view?usp=sharing  
 Fetch & Promise: https://drive.google.com/file/d/1MkgDhESpb1MOxsFCKML-UYB4N6s7l9ES/view?usp=sharing  
 Vue: https://drive.google.com/file/d/1AbharV399KuoeaxXnUf59yH8wJW0M1sD/view?usp=sharing  
+Security: https://drive.google.com/file/d/1etJJun0wlzI_dDVQpB0A9IiOWohlXZlC/view?usp=sharing  
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
 
