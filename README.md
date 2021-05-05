@@ -19,6 +19,7 @@ Javascript: https://drive.google.com/file/d/141ENRhb_LwA-_zqs8Of-bETUZFzyjYeP/vi
 Fetch & Promise: https://drive.google.com/file/d/1MkgDhESpb1MOxsFCKML-UYB4N6s7l9ES/view?usp=sharing  
 Vue: https://drive.google.com/file/d/1AbharV399KuoeaxXnUf59yH8wJW0M1sD/view?usp=sharing  
 Security: https://drive.google.com/file/d/1etJJun0wlzI_dDVQpB0A9IiOWohlXZlC/view?usp=sharing  
+Testimine: https://drive.google.com/file/d/1XcKSP1pUhbOEJPndLWYUQwzUM1G0h6p7/view?usp=sharing  
 ## Tunni Ülsanded
 https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/tasks
 
