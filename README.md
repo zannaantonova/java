@@ -44,7 +44,7 @@ https://github.com/siimrebane/java/tree/master/src/main/java/ee/bcs/java/demo/ta
 26.04.2021: https://us02web.zoom.us/rec/share/egAK_0JzTLvmT5Q4eRsHnpam2cz2OdlAx8EAzRDkoRzH6CUl_LY7A0ulb6iBhGMT.aPHlTiOKuF9FqHJR  
 28.04.2021: https://us02web.zoom.us/rec/share/uFFaDlAnp3XBgARAhFFjqO1jAARPX0t-OzAtWbj_BfjdIumIaRvDBCdZ5xXfs2oh.aeRY-3QHixi1pI3I  
 03.05.2021: https://us02web.zoom.us/rec/share/O27B4b10u-G72razlQqxvgNjeKvuR93q7FiF5xnMvRZPcdtE22R7_B36Qr_Z5pUX.ut4ogHDZz0TRSeAV  
-05.05.2021:  
+05.05.2021: https://us02web.zoom.us/rec/share/Dr_83i1OL_S71p9D6In-zeX3wg9Vy5JXwBPoBicsyYilk4wvwIFDil-q7KkSpVQQ.IKva9o9ND7ikQBdb  
 ## Lisaülesanded (väiksem number = raskem ülesanne)
 ### Raskus 8
 https://www.codewars.com/kata/57d814e4950d8489720008db  
