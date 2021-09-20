@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="newButton">Lae Andmed</button>
+<table id="sampleTable">
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>address</th>
+    </tr>
+</table>
+<script>
+    let newButton = document.getElementById("newButton");
+    let sampleTable = document.getElementById("sampleTable");
+    newButton.onclick = function() {
+        fetch('sql-test4')
+        .then(result => result.json())
+        .then(function(data) {
+            let headerRow = document.createElement("tr")
+            let idHeader = document.createElement("th");
+            let nameHeader = document.createElement("th");
+            let addressHeader = document.createElement("th");
+            sampleTable.appendChild(headerRow);
+            headerRow.appendChild(idHeader);
+            headerRow.appendChild(nameHeader);
+            headerRow.appendChild(addressHeader);
+            idHeader.innerText = "id";
+            nameHeader.innerText = "name";
+            addressHeader.innerText = "address"
+            for(let i = 0; i < data.length; i++){
+                let htmlRow = document.createElement("tr");
+                sampleTable.appendChild(htmlRow);
+                let idColumn = document.createElement("td");
+                let nameColumn = document.createElement("td");
+                let addressColumn = document.createElement("td");
+                htmlRow.appendChild(idColumn);
+                htmlRow.appendChild(nameColumn);
+                htmlRow.appendChild(addressColumn);
+                idColumn.innerText = data[i].id;
+                nameColumn.innerText = data[i].name;
+                addressColumn.innerText = data[i].address;
+            }
+        })
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

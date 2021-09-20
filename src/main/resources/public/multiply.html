@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Korrutus tabel</h1>
+<input id="x"/>
+<input id="y"/>
+<button id="generateTableButton">kuva list</button>
+<button id="clearTableButton">kustuta</button>
+<table border="1" id="multiplyTable">
+    <tr>
+        <td>INNER TEXT</td>
+    </tr>
+</table>
+<script>
+    let showListButton = document.getElementById("generateTableButton")
+    showListButton.onclick = function () {
+        let table = document.getElementById("multiplyTable")
+        let x = document.getElementById("x").value;
+        let y = document.getElementById("y").value;
+        for (let j = 1; j <= y; j++) { // Tee y rida
+            let newRow = document.createElement("tr")         // loo uus rida
+            table.appendChild(newRow)        // appendi rida tabeli külge
+            for(let i = 1; i <= Number(x); i++){
+                let newColumn = document.createElement('td')            //  loo tulp
+                newRow.appendChild(newColumn)            // appendi tulp rea külge
+                newColumn.innerText = i * j           // väärtusta tulba innerTextiks i
+            }
+        }
+    }
+    let emptyListButton = document.getElementById("clearTableButton")
+    emptyListButton.onclick = function () {
+        let table = document.getElementById("multiplyTable")
+        table.innerHTML = ''
+    };
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--<script>
+    let showListButton = document.getElementById("showListButton");
+    showListButton.onclick = function() {
+        fetch('sql-test2')
+            .then(result => result.json())
+            .then(function(data) {
+
+        })
+    }-->
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+

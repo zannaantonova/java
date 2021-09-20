@@ -1,0 +1,69 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <changeSet id="1" author="Siim">
+        <createTable tableName="author">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="text"/>
+        </createTable>
+
+        <createTable tableName="book">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="description" type="text"/>
+            <column name="name" type="text"/>
+            <column name="author_id" type="int">
+                <constraints
+                        unique="true"
+                        nullable="false"
+                        foreignKeyName="fk_book_author"
+                        references="author(id)"
+                deleteCascade="true"/>
+            </column>
+        </createTable>
+    </changeSet>
+    <changeSet id="2021-09-07 Add client table" author="Siim Rebane">
+        <createTable tableName="client">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="text"/>
+        </createTable>
+    </changeSet>
+    <changeSet id="2021-09-14 Add employee table" author="Siim Rebane">
+        <createTable tableName="employee">
+            <column name ="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="text"/>
+            <column name="address" type="text"/>
+        </createTable>
+    </changeSet>
+    <changeSet id="2021-09-17 add car and rental tables" author="Siim Rebane">
+        <createTable tableName="car">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="number" type="text"/>
+            <column name="brand" type="text"/>
+        </createTable>
+        <createTable tableName="rental">
+            <column name="id" type="int" autoIncrement="true">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="car_id" type="int">x
+                <constraints foreignKeyName="fk_rental_car" references="car(id)"/>
+            </column>
+            <column name="client_first_name" type="text"/>
+            <column name="client_last_name" type="text"/>
+            <column name="from" type="Date"/>
+            <column name="to" type="Date"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

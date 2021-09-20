@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="http://google.com">mingi tekst</a>
+<input placeholder="a" id="minA" type="number">
+<input placeholder="b" id="minB" type="number">
+<button id="minButton">Miinimum</button>
+<input disabled id="minAnswer">
+<script>
+    let minButton = document.getElementById("minButton");
+    minButton.onclick = function () {
+        let a = document.getElementById("minA").value;
+        let b = document.getElementById("minB").value;
+        if(Number(a) < Number(b)){
+            document.getElementById("minAnswer").value = a;
+        } else {
+            document.getElementById("minAnswer").value = b;
+        }
+    }
+</script>
+<br><br>
+<button id="hideButton">Peida</button>
+<div id="hiddenArea" style="display: none">
+    Peida mind
+</div>
+<script>
+    let hideButton = document.getElementById("hideButton")
+    hideButton.onclick = function () {
+        let hiddenArea = document.getElementById("hiddenArea");
+        if(hiddenArea.style.display == "none"){
+            hiddenArea.style.display = ""
+        } else {
+            hiddenArea.style.display = "none";
+        }
+    }
+</script>
+<br>
+<input id="accountNr">
+<button id="fetchTest">Fetch</button>
+<input id="fetchResult"/>
+<span id="fetchResult2"></span>
+<script>
+    let accountNr = document.getElementById("accountNr");
+    let fetchButton = document.getElementById("fetchTest");
+    fetchButton.onclick = function() {
+        fetch("/test2/" + accountNr.value)
+        //.then(result => result.json()) // kui teenus tagastab jsoni
+        .then(result => result.text())
+        .then(function(data){
+            console.log(data);
+            let fetchResult = document.getElementById("fetchResult");
+            let fetchResult2 = document.getElementById("fetchResult2");
+            fetchResult.value = data;
+            fetchResult2.innerText = data;
+        })
+    }
+</script>
+<br>
+<br>
+    Title: <input id="title"><br>
+    Author: <input id="author"><br>
+    Year: <input id="year"><br>
+<button id="sendBook">Send book</button>
+<script>
+    let title = document.getElementById("title");
+    let author = document.getElementById("author");
+    let year = document.getElementById("year");
+
+    let sendBook = document.getElementById("sendBook");
+    sendBook.onclick = function () {
+        let book = {
+            title: title.value,
+            author: author.value,
+            year: year.value
+        }
+        fetch("/test8",
+            {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(book)
+            }
+        ).then(result => result.text())
+        //.then(result => alert(result))
+        .then(function(result){
+            alert(result)
+        })
+    };
+
+</script>
+<br>
+<br>
+<br>
+<h1>Listi kuvamis näide</h1>
+<input id="listSample1"/>
+<input id="listSample2"/>
+<button id="showListButton">kuva list</button>
+<button id="emptyListButton">kustuta</button>
+<table border="1" id="table-sample">
+    <tr> <!-- table.appendChild(tr) -->
+        <td></td> <!-- tr.appendChild(td) -->
+        <td></td> <!-- tr.appendChild(td) -->
+    </tr>
+</table>
+<script>
+    let showListButton = document.getElementById("showListButton")
+    let listSample1 = document.getElementById("listSample1")
+    let listSample2 = document.getElementById("listSample2")
+    showListButton.onclick = function () {
+        let newRow = document.createElement("tr")
+        let column1 = document.createElement("td")
+        column1.innerText = listSample1.value
+        let column2 = document.createElement("td")
+        column2.innerText = listSample2.value
+        newRow.appendChild(column1);
+        newRow.appendChild(column2);
+        let table = document.getElementById("table-sample")
+        table.appendChild(newRow);
+    }
+    let emptyListButton = document.getElementById("emptyListButton")
+    emptyListButton.onclick = function () {
+        let table = document.getElementById("table-sample")
+        table.innerHTML = ''
+    };
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--<script>
+    let showListButton = document.getElementById("showListButton");
+    showListButton.onclick = function() {
+        fetch('sql-test2')
+            .then(result => result.json())
+            .then(function(data) {
+
+        })
+    }-->
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
