@@ -1,7 +1,6 @@
-# vali-it
+# Java
 
 ## Slaidid
-### Kõik slaidid
 
 ### Java / SQL
 **Sissejuhatus**: https://docs.google.com/presentation/d/1JN0uSVd10jG3b-_82gbIFAr_ycnc15kh/edit?usp=sharing&ouid=113984198037355275739&rtpof=true&sd=true  
