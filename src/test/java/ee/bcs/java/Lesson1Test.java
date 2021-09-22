@@ -56,6 +56,7 @@ class Lesson1Test {
         assertEquals(2, Lesson1.min3(3, 2, 4));
         assertEquals(1, Lesson1.min3(1, 2, 4));
         assertEquals(-5, Lesson1.min3(1, 2, -5));
+        assertEquals(3, Lesson1.min3(5, 4, 3));
     }
 
     @Test
