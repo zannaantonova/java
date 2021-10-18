@@ -53,5 +53,6 @@ https://www.codewars.com/kata/521c2db8ddc89b9b7a0000c1
 **Git**: https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 **Agile**: https://www.youtube.com/watch?v=a-BOSpxYJ9M&ab_channel=GOTOConferences
 
-## Vanad versioonid
-https://www.jetbrains.com/idea/download/other.html
+## Testid
+**Java**: https://itempool.com/supax/c/uF81VLoRj8Q
+**Web**: https://itempool.com/supax/c/YHFTWxccZtD
