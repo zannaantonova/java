@@ -1,6 +1,5 @@
 package ee.bcs.java.sample;
 
-import ee.bcs.java.controller.TransactionDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
@@ -150,7 +149,7 @@ public class SampleBankController {
     // http://localhost:8080/sample/bank2/transactionHistory?accountNumber=EE123&from=2021-11-01&to=2021-11-03
     // http://localhost:8080/sample/bank2/transactionHistory?accountNumber=EE123&from=2021-11-01
     @GetMapping("sample/bank2/transactionHistory")
-    public List<TransactionDto> getTransactionHistory(
+    public List<SampleTransactionDto> getTransactionHistory(
             @RequestParam("accountNumber") String accountNumber,
             @RequestParam(value = "from", required = false) String from,
             @RequestParam(value = "to", required = false) String to
@@ -168,6 +167,6 @@ public class SampleBankController {
             LocalDate toDate = LocalDate.parse(to);
             paramMap.put("to", toDate.plusDays(1));
         }
-        return jdbcTemplate.query(sql, paramMap, new BeanPropertyRowMapper<>(TransactionDto.class));
+        return jdbcTemplate.query(sql, paramMap, new BeanPropertyRowMapper<>(SampleTransactionDto.class));
     }
 }
