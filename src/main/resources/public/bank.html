@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Lesson4 asjad:</h1>
+Konto number: <input id="accountNUmber"/>
+<br>
+<br>
+<button id="createAccountButton">Loo konto</button>
+<input id="kontoloodud" disabled/>
+<br>
+<br>
+<button id="getBalanceButton">Konto saldo</button>
+<input id="saldo" disabled/>
+<br>
+<br>
+<input id="sissemaks"/>
+<button id="depositMoneyButton">Sissemaks</button>
+<input id="uussaldo" disabled/>
+<br>
+<br>
+<input id="valjamaks"/>
+<button id="withdrawMoneyButton">Väljamaks</button>
+<input id="uussaldo1" disabled/>
+<br>
+<br>
+Kontolt: <input id="kontolt"/>
+Kontole: <input id="kontole"/>
+Summa: <input id="summa"/>
+<button id="transferMoneyButton">Ülekanne</button>
+
+
+<script>
+    let createAccountButton = document.getElementById("createAccountButton");
+    createAccountButton.onclick = function () {
+        let accountNumber = document.getElementById("accountNUmber").value;
+        let url = "http://localhost:8080/banksql/createAccount?accountNumber=" + accountNumber
+        fetch(url);
+    }
+    let getBalanceButton = document.getElementById("getBalanceButton");
+    getBalanceButton.onclick = function () {
+        let accountNumber = document.getElementById("accountNUmber").value;
+        let url = "http://localhost:8080/banksql/getBalance?accountNumber=" + accountNumber
+        fetch(url)
+            .then(resultat => resultat.text())
+            .then(function (resultat) {
+                document.getElementById("saldo").value = resultat;
+            })
+    }
+    let depositMoneyButton = document.getElementById("depositMoneyButton");
+    depositMoneyButton.onclick = function () {
+        let accountNumber = document.getElementById("accountNUmber").value;
+        let sissemaks = document.getElementById("sissemaks").value;
+        let url = "http://localhost:8080/banksql/depositMoney2?accountNumber=" + accountNumber + "&amount=" + sissemaks
+        fetch(url)
+            .then(resultatSissemaks => resultatSissemaks.text())
+            .then(function (resultatSissemaks) {
+                document.getElementById("uussaldo").value = resultatSissemaks;
+            })
+    }
+
+    let withdrawMoneyButton = document.getElementById("withdrawMoneyButton");
+    withdrawMoneyButton.onclick = function () {
+        let accountNumber = document.getElementById("accountNUmber").value;
+        let valjamaks = document.getElementById("valjamaks").value;
+        let url = "http://localhost:8080/banksql/withdrawMoney2?accountNumber=" + accountNumber + "&amount=" + valjamaks
+            fetch(url)
+                .then(resultatValjamaks => resultatValjamaks.text())
+                .then(function (resultatValjamaks) {
+                    document.getElementById("valjamaks").value = resultatValjamaks;
+                })
+    }
+
+
+    let transferMoneyButton = document.getElementById("transferMoneyButton");
+    transferMoneyButton.onclick = function () {
+        let kontolt = document.getElementById("kontolt").value;
+        let kontole = document.getElementById("kontole").value;
+        let summa = document.getElementById("summa").value;
+        let url = "http://localhost:8080/bank2/transferMoney2/" + kontolt + "/" + kontole + "/" + summa
+        fetch(url)
+            .then(resultatYlekanne => resultatYlekanne.text())
+            .then(function (resultatYlekanne) {
+                document.getElementById("summa").value = resultatYlekanne;
+            })
+    }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

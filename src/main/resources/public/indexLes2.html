@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Lesson 2:</h1>
+<input id="a">
+<button id="generateNupp">Genereeri arvud 1st x-ni</button>
+<button id="decreaseNupp">Genereeri arvud x-st 1ni</button>
+<table id="resultTable">
+</table>
+<script>
+    let generateButton = document.getElementById("generateNupp");
+    generateButton.onclick = function () {
+        let a = document.getElementById("a");
+        let table = document.getElementById("resultTable");
+        table.innerHTML = "";
+        for (let i = 1; i <= a.value; i++) {
+            let newRow = document.createElement("tr");
+            table.appendChild(newRow);
+            let newCell = document.createElement("td");
+            newRow.appendChild(newCell);
+            newCell.innerHTML = i;
+        }
+    }
+
+
+    let decreaseButton = document.getElementById("decreaseNupp");
+    decreaseButton.onclick = function () {
+        let a = document.getElementById("a");
+        let table = document.getElementById("resultTable");
+        table.innerHTML = "";
+        if (a.value > 0) {
+            for (let i = 0; i < a.value; i++) {
+                let newRow = document.createElement("tr");
+                table.appendChild(newRow);
+                let newCell = document.createElement("td");
+                newRow.appendChild(newCell);
+                newCell.innerHTML = Number(a.value) - i;
+            }
+        } else {
+                for (let i = 0; i < - a.value; i++) {
+                    let newRow = document.createElement("tr");
+                    table.appendChild(newRow);
+                    let newCell = document.createElement("td");
+                    newRow.appendChild(newCell);
+                    newCell.innerHTML = Number(a.value) + i;
+                }
+            }
+
+    }
+
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

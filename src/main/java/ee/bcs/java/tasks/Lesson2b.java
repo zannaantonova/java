@@ -3,12 +3,27 @@ package ee.bcs.java.tasks;
 public class Lesson2b {
 
     public static void main(String[] args) {
-        multiplyTable(5, 5);
+        evenNumbers(3);
     }
 
     // TODO loe funktsiooni sisendiks on täisarvude massiiv
     // TODO tagasta massiiv mille elemendid on vastupidises järiekorras
+    /*public static int[] reverseArray(int[] inputArray) {
+        int[] a = new int[inputArray.length];
+        for (int i = 0; i < a.length; i++) {
+            a[i] = inputArray[a.length-i-1];
+        }
+        return a;
+    }*/
+
     public static int[] reverseArray(int[] inputArray) {
+
+        for (int i = 0; i < inputArray.length / 2; i++) {
+            int tmp = inputArray[i];
+            inputArray[i] = inputArray[inputArray.length - i - 1];
+            inputArray[inputArray.length - i - 1] = tmp;
+        }
+
         return inputArray;
     }
 
@@ -17,28 +32,50 @@ public class Lesson2b {
     // Sisend 5
     // Väljund 2 4 6 8 10
     public static int[] evenNumbers(int n) {
-        return new int[0];
-        /*
+
         int[] array = new int[n];
-        for(int i = 0; i < n; i++){
-            array[i] = (i +1) * 2;
+        for (int i = 1; i <= n; i++) {
+            array[i - 1] = i * 2;
         }
-        return array;*/
+
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                array[i / 2 - 1] = i;
+            }
+        }
+
+        return array;
     }
 
     // TODO, leia massiivi kõige väiksem element
     public static int min(int[] x) {
-        return 0;
+        int tmp = x[0];
+        for (int i = 0; i < x.length; i++) {
+            if (x[i] < tmp) {
+                tmp = x[i];
+            }
+        }
+        return tmp;
     }
 
     // TODO, leia massiivi kõige suurem element
     public static int max(int[] x) {
-        return 0;
+        int tmp = x[0];
+        for (int i = 0; i < x.length; i++) {
+            if (x[i] > tmp) {
+                tmp = x[i];
+            }
+        }
+        return tmp;
     }
 
     // TODO, leia massiivi kõigi elementide summa
     public static int sum(int[] x) {
-        return 0;
+        int tmp = 0;
+        for (int i = 0; i < x.length; i++) {
+            tmp = x[i] + tmp;
+        }
+        return tmp;
     }
 
     // TODO trüki välja korrutustabel mis on x ühikut lai ja y ühikut kõrge
@@ -55,7 +92,7 @@ public class Lesson2b {
     // TODO 5 võrdle ridu. Kas on mingi seaduspärasus ridade vahel,
     // mis on ja mis võiks olla. Äkki tuleb mõni idee
     public static void multiplyTable(int x, int y) {
-
+        return;
     }
 
     // TODO

@@ -9,7 +9,7 @@ public class Lesson3Hard {
     // iga kord pärast kasutaja sisestatud täis arvu peab programm ütlema kas number oli suurem või väiksem
     // ja kasutaja peab saama uuesti arvata
     // numbri ära aramise korral peab programm välja trükkima mitu katset läks numbri ära arvamiseks
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Random random = new Random();
         int i = random.nextInt(100);
         System.out.println(i);
@@ -23,6 +23,23 @@ public class Lesson3Hard {
         // TODO 6 iga kord kui tsükkel tööle läheb suurenda counti 1 võrra
         // TODO 7 juhul kui tsükkel saab läbi (kasutaja arvas numbri ära) Trüki count välja
         Scanner scanner = new Scanner(System.in);
+        int count = 0;
+        while (true) {
+            System.out.println("sisesta täisnumber vahemikus 0-99: ");
+            int numb = scanner.nextInt();
+            if (numb >= 0 && numb <= 99 && numb == i) {
+                System.out.println("väga tubli oled!");
+                System.out.println("kokku katseid: " + count);
+                break;
+            } else if (numb >= 0 && numb <= 99 && i < numb) {
+                System.out.println("otsitav number on väiksem");
+            } else if (numb >= 0 && numb <= 99 && i > numb) {
+                System.out.println("otsitav number on suurem");
+            } else {
+                System.out.println("otsitav number on vale");
+            }
+            count++;
+        }
 
     }
 }
